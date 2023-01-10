@@ -1,0 +1,31 @@
+name: good_practices_testing
+description: This is a project following the next medium article called "Flutter Testing — mis consejos y buenas prácticas".
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  rive: 0.9.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+  mockito: ^5.3.2
+  build_runner:
+
+flutter:
+
+  uses-material-design: true
+  assets:
+  - assets/animations/rive_lotus.riv
